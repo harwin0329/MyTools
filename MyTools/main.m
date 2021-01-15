@@ -7,21 +7,16 @@
 
 #import <UIKit/UIKit.h>
 
-int main(int argc, char * argv[]) {
+int main(int argc, char *argv[])
+{
     @autoreleasepool {
         NSLog(@"Hello");
         printf("MyTools");
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+        if (argc == 1) {
+            printf("MyTools");
+        }
+
         return 0;
     }
 }
